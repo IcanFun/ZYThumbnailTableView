@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B600855C1CB353E8007C6FC8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B600855B1CB353E8007C6FC8 /* main.m */; };
+		B60085671CB353E8007C6FC8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B60085661CB353E8007C6FC8 /* Images.xcassets */; };
+		B600856A1CB353E8007C6FC8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B60085681CB353E8007C6FC8 /* LaunchScreen.xib */; };
+		B60085761CB353E8007C6FC8 /* ZYThumbnailTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B60085751CB353E8007C6FC8 /* ZYThumbnailTableViewTests.m */; };
+		B60085841CB35575007C6FC8 /* DIYTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B60085811CB35575007C6FC8 /* DIYTableViewCell.xib */; };
+		B60085851CB35575007C6FC8 /* TopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B60085821CB35575007C6FC8 /* TopView.xib */; };
+		B60085881CB3558B007C6FC8 /* BottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = B60085871CB3558B007C6FC8 /* BottomView.m */; };
+		B600858C1CB3A11F007C6FC8 /* DIYTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B600858B1CB3A11F007C6FC8 /* DIYTableViewCell.m */; };
+		B600858F1CB3A71B007C6FC8 /* Post.m in Sources */ = {isa = PBXBuildFile; fileRef = B600858E1CB3A71B007C6FC8 /* Post.m */; };
+		B60085921CB3A854007C6FC8 /* TopView.m in Sources */ = {isa = PBXBuildFile; fileRef = B60085911CB3A854007C6FC8 /* TopView.m */; };
+		B6B6D4B51CBCF6DA00F84698 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6B6D4B41CBCF6DA00F84698 /* Main.storyboard */; };
+		B6B6D4B81CBCF9A000F84698 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B6D4B71CBCF9A000F84698 /* AppDelegate.m */; };
+		B6B6D4BB1CBCF9B700F84698 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B6D4BA1CBCF9B700F84698 /* ViewController.m */; };
+		B6B6D4BD1CBCFB3400F84698 /* BottomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6B6D4BC1CBCFB3400F84698 /* BottomView.xib */; };
+		B6EF42B01CB4DC68004DC0F1 /* BlurUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EF42AA1CB4DC68004DC0F1 /* BlurUtil.m */; };
+		B6EF42B11CB4DC68004DC0F1 /* ZYKeyboardUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EF42AE1CB4DC68004DC0F1 /* ZYKeyboardUtil.m */; };
+		B6EF42B41CB4DCA7004DC0F1 /* ZYThumbnailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EF42B31CB4DCA7004DC0F1 /* ZYThumbnailTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B60085701CB353E8007C6FC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B600854E1CB353E8007C6FC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B60085551CB353E8007C6FC8;
+			remoteInfo = ZYThumbnailTableView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B60085561CB353E8007C6FC8 /* ZYThumbnailTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYThumbnailTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B600855A1CB353E8007C6FC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B600855B1CB353E8007C6FC8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B60085661CB353E8007C6FC8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B60085691CB353E8007C6FC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B600856F1CB353E8007C6FC8 /* ZYThumbnailTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYThumbnailTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B60085741CB353E8007C6FC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B60085751CB353E8007C6FC8 /* ZYThumbnailTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYThumbnailTableViewTests.m; sourceTree = "<group>"; };
+		B60085811CB35575007C6FC8 /* DIYTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DIYTableViewCell.xib; sourceTree = "<group>"; };
+		B60085821CB35575007C6FC8 /* TopView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TopView.xib; sourceTree = "<group>"; };
+		B60085861CB3558B007C6FC8 /* BottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BottomView.h; sourceTree = "<group>"; };
+		B60085871CB3558B007C6FC8 /* BottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BottomView.m; sourceTree = "<group>"; };
+		B60085891CB355F5007C6FC8 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		B600858A1CB3A11F007C6FC8 /* DIYTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIYTableViewCell.h; sourceTree = "<group>"; };
+		B600858B1CB3A11F007C6FC8 /* DIYTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIYTableViewCell.m; sourceTree = "<group>"; };
+		B600858D1CB3A71B007C6FC8 /* Post.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Post.h; sourceTree = "<group>"; };
+		B600858E1CB3A71B007C6FC8 /* Post.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Post.m; sourceTree = "<group>"; };
+		B60085901CB3A854007C6FC8 /* TopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopView.h; sourceTree = "<group>"; };
+		B60085911CB3A854007C6FC8 /* TopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopView.m; sourceTree = "<group>"; };
+		B6B6D4B41CBCF6DA00F84698 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		B6B6D4B61CBCF9A000F84698 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B6B6D4B71CBCF9A000F84698 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B6B6D4B91CBCF9B700F84698 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B6B6D4BA1CBCF9B700F84698 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B6B6D4BC1CBCFB3400F84698 /* BottomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BottomView.xib; sourceTree = "<group>"; };
+		B6EF42A91CB4DC68004DC0F1 /* BlurUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlurUtil.h; sourceTree = "<group>"; };
+		B6EF42AA1CB4DC68004DC0F1 /* BlurUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlurUtil.m; sourceTree = "<group>"; };
+		B6EF42AD1CB4DC68004DC0F1 /* ZYKeyboardUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYKeyboardUtil.h; sourceTree = "<group>"; };
+		B6EF42AE1CB4DC68004DC0F1 /* ZYKeyboardUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYKeyboardUtil.m; sourceTree = "<group>"; };
+		B6EF42AF1CB4DC68004DC0F1 /* ZYThumbnailTableView-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ZYThumbnailTableView-Bridging-Header.h"; sourceTree = "<group>"; };
+		B6EF42B21CB4DCA7004DC0F1 /* ZYThumbnailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYThumbnailTableViewController.h; sourceTree = "<group>"; };
+		B6EF42B31CB4DCA7004DC0F1 /* ZYThumbnailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYThumbnailTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B60085531CB353E8007C6FC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B600856C1CB353E8007C6FC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B600854D1CB353E8007C6FC8 = {
+			isa = PBXGroup;
+			children = (
+				B60085581CB353E8007C6FC8 /* ZYThumbnailTableView */,
+				B60085721CB353E8007C6FC8 /* ZYThumbnailTableViewTests */,
+				B60085571CB353E8007C6FC8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B60085571CB353E8007C6FC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B60085561CB353E8007C6FC8 /* ZYThumbnailTableView.app */,
+				B600856F1CB353E8007C6FC8 /* ZYThumbnailTableViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B60085581CB353E8007C6FC8 /* ZYThumbnailTableView */ = {
+			isa = PBXGroup;
+			children = (
+				B6EF42A71CB4DC68004DC0F1 /* Classes */,
+				B600857F1CB35557007C6FC8 /* DiyViews */,
+				B600858D1CB3A71B007C6FC8 /* Post.h */,
+				B600858E1CB3A71B007C6FC8 /* Post.m */,
+				B6B6D4B91CBCF9B700F84698 /* ViewController.h */,
+				B6B6D4BA1CBCF9B700F84698 /* ViewController.m */,
+				B6B6D4B61CBCF9A000F84698 /* AppDelegate.h */,
+				B6B6D4B71CBCF9A000F84698 /* AppDelegate.m */,
+				B6B6D4B41CBCF6DA00F84698 /* Main.storyboard */,
+				B60085661CB353E8007C6FC8 /* Images.xcassets */,
+				B60085681CB353E8007C6FC8 /* LaunchScreen.xib */,
+				B60085591CB353E8007C6FC8 /* Supporting Files */,
+			);
+			path = ZYThumbnailTableView;
+			sourceTree = "<group>";
+		};
+		B60085591CB353E8007C6FC8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B600855A1CB353E8007C6FC8 /* Info.plist */,
+				B600855B1CB353E8007C6FC8 /* main.m */,
+				B60085891CB355F5007C6FC8 /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B60085721CB353E8007C6FC8 /* ZYThumbnailTableViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				B60085751CB353E8007C6FC8 /* ZYThumbnailTableViewTests.m */,
+				B60085731CB353E8007C6FC8 /* Supporting Files */,
+			);
+			path = ZYThumbnailTableViewTests;
+			sourceTree = "<group>";
+		};
+		B60085731CB353E8007C6FC8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B60085741CB353E8007C6FC8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B600857F1CB35557007C6FC8 /* DiyViews */ = {
+			isa = PBXGroup;
+			children = (
+				B60085861CB3558B007C6FC8 /* BottomView.h */,
+				B60085871CB3558B007C6FC8 /* BottomView.m */,
+				B6B6D4BC1CBCFB3400F84698 /* BottomView.xib */,
+				B600858A1CB3A11F007C6FC8 /* DIYTableViewCell.h */,
+				B600858B1CB3A11F007C6FC8 /* DIYTableViewCell.m */,
+				B60085811CB35575007C6FC8 /* DIYTableViewCell.xib */,
+				B60085901CB3A854007C6FC8 /* TopView.h */,
+				B60085911CB3A854007C6FC8 /* TopView.m */,
+				B60085821CB35575007C6FC8 /* TopView.xib */,
+			);
+			path = DiyViews;
+			sourceTree = "<group>";
+		};
+		B6EF42A71CB4DC68004DC0F1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B6EF42AB1CB4DC68004DC0F1 /* ZTYHunbnailController */,
+				B6EF42A81CB4DC68004DC0F1 /* Util */,
+				B6EF42AC1CB4DC68004DC0F1 /* ZYKeyboardUtil */,
+				B6EF42AF1CB4DC68004DC0F1 /* ZYThumbnailTableView-Bridging-Header.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B6EF42A81CB4DC68004DC0F1 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				B6EF42A91CB4DC68004DC0F1 /* BlurUtil.h */,
+				B6EF42AA1CB4DC68004DC0F1 /* BlurUtil.m */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		B6EF42AB1CB4DC68004DC0F1 /* ZTYHunbnailController */ = {
+			isa = PBXGroup;
+			children = (
+				B6EF42B21CB4DCA7004DC0F1 /* ZYThumbnailTableViewController.h */,
+				B6EF42B31CB4DCA7004DC0F1 /* ZYThumbnailTableViewController.m */,
+			);
+			path = ZTYHunbnailController;
+			sourceTree = "<group>";
+		};
+		B6EF42AC1CB4DC68004DC0F1 /* ZYKeyboardUtil */ = {
+			isa = PBXGroup;
+			children = (
+				B6EF42AD1CB4DC68004DC0F1 /* ZYKeyboardUtil.h */,
+				B6EF42AE1CB4DC68004DC0F1 /* ZYKeyboardUtil.m */,
+			);
+			path = ZYKeyboardUtil;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B60085551CB353E8007C6FC8 /* ZYThumbnailTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B60085791CB353E8007C6FC8 /* Build configuration list for PBXNativeTarget "ZYThumbnailTableView" */;
+			buildPhases = (
+				B60085521CB353E8007C6FC8 /* Sources */,
+				B60085531CB353E8007C6FC8 /* Frameworks */,
+				B60085541CB353E8007C6FC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZYThumbnailTableView;
+			productName = ZYThumbnailTableView;
+			productReference = B60085561CB353E8007C6FC8 /* ZYThumbnailTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B600856E1CB353E8007C6FC8 /* ZYThumbnailTableViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B600857C1CB353E8007C6FC8 /* Build configuration list for PBXNativeTarget "ZYThumbnailTableViewTests" */;
+			buildPhases = (
+				B600856B1CB353E8007C6FC8 /* Sources */,
+				B600856C1CB353E8007C6FC8 /* Frameworks */,
+				B600856D1CB353E8007C6FC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B60085711CB353E8007C6FC8 /* PBXTargetDependency */,
+			);
+			name = ZYThumbnailTableViewTests;
+			productName = ZYThumbnailTableViewTests;
+			productReference = B600856F1CB353E8007C6FC8 /* ZYThumbnailTableViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B600854E1CB353E8007C6FC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = zxp;
+				TargetAttributes = {
+					B60085551CB353E8007C6FC8 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					B600856E1CB353E8007C6FC8 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = B60085551CB353E8007C6FC8;
+					};
+				};
+			};
+			buildConfigurationList = B60085511CB353E8007C6FC8 /* Build configuration list for PBXProject "ZYThumbnailTableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B600854D1CB353E8007C6FC8;
+			productRefGroup = B60085571CB353E8007C6FC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B60085551CB353E8007C6FC8 /* ZYThumbnailTableView */,
+				B600856E1CB353E8007C6FC8 /* ZYThumbnailTableViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B60085541CB353E8007C6FC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B60085851CB35575007C6FC8 /* TopView.xib in Resources */,
+				B600856A1CB353E8007C6FC8 /* LaunchScreen.xib in Resources */,
+				B60085841CB35575007C6FC8 /* DIYTableViewCell.xib in Resources */,
+				B6B6D4B51CBCF6DA00F84698 /* Main.storyboard in Resources */,
+				B60085671CB353E8007C6FC8 /* Images.xcassets in Resources */,
+				B6B6D4BD1CBCFB3400F84698 /* BottomView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B600856D1CB353E8007C6FC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B60085521CB353E8007C6FC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6EF42B01CB4DC68004DC0F1 /* BlurUtil.m in Sources */,
+				B60085921CB3A854007C6FC8 /* TopView.m in Sources */,
+				B6B6D4B81CBCF9A000F84698 /* AppDelegate.m in Sources */,
+				B600858F1CB3A71B007C6FC8 /* Post.m in Sources */,
+				B6B6D4BB1CBCF9B700F84698 /* ViewController.m in Sources */,
+				B6EF42B11CB4DC68004DC0F1 /* ZYKeyboardUtil.m in Sources */,
+				B6EF42B41CB4DCA7004DC0F1 /* ZYThumbnailTableViewController.m in Sources */,
+				B600855C1CB353E8007C6FC8 /* main.m in Sources */,
+				B600858C1CB3A11F007C6FC8 /* DIYTableViewCell.m in Sources */,
+				B60085881CB3558B007C6FC8 /* BottomView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B600856B1CB353E8007C6FC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B60085761CB353E8007C6FC8 /* ZYThumbnailTableViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B60085711CB353E8007C6FC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B60085551CB353E8007C6FC8 /* ZYThumbnailTableView */;
+			targetProxy = B60085701CB353E8007C6FC8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B60085681CB353E8007C6FC8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B60085691CB353E8007C6FC8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B60085771CB353E8007C6FC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B60085781CB353E8007C6FC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B600857A1CB353E8007C6FC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZYThumbnailTableView/PrefixHeader.pch";
+				INFOPLIST_FILE = ZYThumbnailTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B600857B1CB353E8007C6FC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZYThumbnailTableView/PrefixHeader.pch";
+				INFOPLIST_FILE = ZYThumbnailTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B600857D1CB353E8007C6FC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ZYThumbnailTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZYThumbnailTableView.app/ZYThumbnailTableView";
+			};
+			name = Debug;
+		};
+		B600857E1CB353E8007C6FC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ZYThumbnailTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZYThumbnailTableView.app/ZYThumbnailTableView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B60085511CB353E8007C6FC8 /* Build configuration list for PBXProject "ZYThumbnailTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B60085771CB353E8007C6FC8 /* Debug */,
+				B60085781CB353E8007C6FC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B60085791CB353E8007C6FC8 /* Build configuration list for PBXNativeTarget "ZYThumbnailTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B600857A1CB353E8007C6FC8 /* Debug */,
+				B600857B1CB353E8007C6FC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B600857C1CB353E8007C6FC8 /* Build configuration list for PBXNativeTarget "ZYThumbnailTableViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B600857D1CB353E8007C6FC8 /* Debug */,
+				B600857E1CB353E8007C6FC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B600854E1CB353E8007C6FC8 /* Project object */;
+}

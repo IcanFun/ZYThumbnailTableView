@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7531" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="TopView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="40"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vty-Tl-59c">
+                    <rect key="frame" x="15" y="12" width="99" height="16"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <state key="normal" title="  Mark as read" image="tick_solid">
+                        <color key="titleColor" red="0.65490196078431373" green="0.85490196078431369" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="clickMarkAsReadButton:" destination="iN0-l3-epB" eventType="touchUpInside" id="0Hc-cQ-FXF"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="10" contentMode="scaleToFill" horizontalHuggingPriority="251" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XYx-Oa-3t5">
+                    <rect key="frame" x="137" y="12" width="65" height="16"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="1"/>
+                    <state key="normal" title=" Favorite" image="star_hollow">
+                        <color key="titleColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <state key="highlighted" image="star_solid"/>
+                    <connections>
+                        <action selector="clickFavoriteButton:" destination="iN0-l3-epB" eventType="touchUpInside" id="AHN-oG-N7P"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h11-8F-6f8">
+                    <rect key="frame" x="241" y="12" width="64" height="16"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="1"/>
+                    <state key="normal" title=" Sharing" image="share_icon_normal">
+                        <color key="titleColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <state key="highlighted" image="share_icon_highlight"/>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wHh-VB-Ssy">
+                    <rect key="frame" x="15" y="39" width="290" height="1"/>
+                    <color key="backgroundColor" red="0.91764705879999997" green="0.91764705879999997" blue="0.91764705879999997" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="0.5" id="kTV-a5-yN6"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="h11-8F-6f8" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="0bk-tn-oen"/>
+                <constraint firstItem="vty-Tl-59c" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="4Um-Fq-hlA"/>
+                <constraint firstAttribute="trailing" secondItem="h11-8F-6f8" secondAttribute="trailing" constant="15" id="9mx-uo-VM7"/>
+                <constraint firstItem="wHh-VB-Ssy" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="DkR-iO-Bn3"/>
+                <constraint firstItem="XYx-Oa-3t5" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="NX6-hF-yyi"/>
+                <constraint firstAttribute="trailing" secondItem="wHh-VB-Ssy" secondAttribute="trailing" constant="15" id="UAE-GG-BMW"/>
+                <constraint firstAttribute="bottom" secondItem="wHh-VB-Ssy" secondAttribute="bottom" id="eSh-c1-gxO"/>
+                <constraint firstItem="XYx-Oa-3t5" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" constant="10" id="wkn-vT-Ef0"/>
+                <constraint firstItem="vty-Tl-59c" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="xMl-Cd-mh3"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="favoriteButton" destination="XYx-Oa-3t5" id="vhb-qH-6nd"/>
+                <outlet property="readMarkingButton" destination="vty-Tl-59c" id="OxD-em-p1v"/>
+            </connections>
+            <point key="canvasLocation" x="208" y="171"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="share_icon_highlight" width="13" height="13"/>
+        <image name="share_icon_normal" width="13" height="13"/>
+        <image name="star_hollow" width="13" height="13"/>
+        <image name="star_solid" width="13" height="13"/>
+        <image name="tick_solid" width="13" height="13"/>
+    </resources>
+</document>
