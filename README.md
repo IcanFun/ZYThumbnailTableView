@@ -103,7 +103,7 @@ return diyBottomView;
 - 标记为已读后，小圆点会消失  
 - 标识为喜欢后，会在对应的cell旁边出现一个星星  
 
-createView的时候我将从createTopExpansionViewBlock参数中得到的indexPath储存在我的topView对象中，当favorite按钮被点击时就可以indexPath为凭据利用代理改变对应数据源里的对应状态，同时在下次createView时根据indexPath取得对应的数据源来显示。如果这些交互会更新一些与cell相关的数据，还可以在代理方法中调用```zyThumbnailTableVC.reloadMainTableView()```让tableView重新加载一遍。
+createView的时候我将从createTopExpansionViewBlock参数中得到的indexPath储存在我的topView对象中，当favorite按钮被点击时就可以indexPath为凭据利用代理改变对应数据源里的对应状态，同时在下次createView时根据indexPath取得对应的数据源来显示。如果这些交互会更新一些与cell相关的数据，还可以在代理方法中调用```[zyThumbnailTableVC reloadMainTableView]```让tableView重新加载一遍。
 ```oc
 //TopView---------------------------------------------
 - (instancetype)creatView:(NSIndexPath*)indexpath Post:(Post*)post
@@ -184,6 +184,7 @@ typedef UIView* (^CreateBottomExpansionViewBlock)(NSIndexPath*);
 <br>
 ##Relation:  
 [@ICANFUN](https://github.com/ICANFUN) on Github
+<br>
 [@liuzhiyi1992](https://github.com/liuzhiyi1992) on Github  
 
 <br>
