@@ -21,12 +21,6 @@
 
 @interface ZYThumbnailTableViewController ()<UITableViewDataSource,UITableViewDelegate>
 {
-    /**
-     tableView backgroundColor
-     */
-    UIColor     *tableViewBackgroudColor;
-    
-    
     UIColor     *blurTintColor;
     CGFloat     blurRadius;
     CGFloat     saturationDeltaFactor;
@@ -67,7 +61,7 @@
 @end
 
 @implementation ZYThumbnailTableViewController
-@synthesize tableViewCellReuseId, tableViewCellHeight, tableViewDataList, keyboardAdaptiveView, configureTableViewCellBlock, updateTableViewCellBlock, createBottomExpansionViewBlock, createTopExpansionViewBlock;
+@synthesize tableViewBackgroudColor, tableViewCellReuseId, tableViewCellHeight, tableViewDataList, keyboardAdaptiveView, configureTableViewCellBlock, updateTableViewCellBlock, createBottomExpansionViewBlock, createTopExpansionViewBlock;
 
 - (instancetype)init
 {

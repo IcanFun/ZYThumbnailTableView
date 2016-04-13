@@ -24,6 +24,11 @@ typedef UIView* (^CreateBottomExpansionViewBlock)(NSIndexPath*);
 
 @interface ZYThumbnailTableViewController : UIViewController
 
+/**
+ tableView backgroundColor
+ */
+@property(nonatomic, strong)UIColor *tableViewBackgroudColor;
+
 @property(nonatomic, strong)NSString *tableViewCellReuseId;
 /**
  tableView cell height
