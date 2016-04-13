@@ -135,10 +135,10 @@ post.favorite = !post.favorite;
 <br>
 ##profile:  
 **Block:**  
-typedef UITableViewCell* (^ConfigureTableViewCellBlock)();
-typedef void (^UpdateTableViewCellBlock)(UITableViewCell*,NSIndexPath*);
-typedef UIView* (^CreateTopExpansionViewBlock)(NSIndexPath*);
-typedef UIView* (^CreateBottomExpansionViewBlock)(NSIndexPath*);  
+- typedef UITableViewCell* (^ConfigureTableViewCellBlock)();
+- typedef void (^UpdateTableViewCellBlock)(UITableViewCell*,NSIndexPath*);
+- typedef UIView* (^CreateTopExpansionViewBlock)(NSIndexPath*);
+- typedef UIView* (^CreateBottomExpansionViewBlock)(NSIndexPath*);  
 
 **Define:**  
 - NOTIFY_NAME_DISMISS_PREVIEW   
